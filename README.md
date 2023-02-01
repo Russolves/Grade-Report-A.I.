@@ -13,6 +13,7 @@ Prediction Component
 The program also requires a specific group of students as inputs to make a prediction. This means reading in a .csv file in the same format as the .csv files within the different cohort folders present within the same directory. Apollo_predict would then use the students names from the first report to make a prediction, outputting the following:
 
 ---Stkey---Class---Surname---First Name---Pref Name---Report (Predicted Comments)---wordcount---
+
 *User may need to manually change student's class for which the new report is written in the .csv file output
 
 The report produced would be named 'prediction_output', user then would have to remove the file from within the directory to prevent the .csv file from being overwritten by next predictions.
