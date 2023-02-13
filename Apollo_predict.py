@@ -5,7 +5,7 @@ from statistics import mode
 import pandas as pd
 import os
 
-#Importing module to guess gender
+#Importing module to guess gender of students
 import gender_guesser.detector as gender
 
 #Method to predict using the prediction dataset
@@ -158,7 +158,7 @@ def report_replace(match_dict, report_dict, pref_interest, pref_replace, pref_ge
                     string_list[x] = "his"
                 elif string_list[x] == "hers.":
                     string_list[x] = "his."
-        #Word Count
+        #Initialize a Word Count Variable
         word_count = len(string_list)
         wordcount_dict[key] = word_count
         #Piece string back together
