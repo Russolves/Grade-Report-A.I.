@@ -4,7 +4,6 @@ Apollo_learn program that can take in large amounts of .csv files in the same di
 Note that the .csv files read in have to be in a specific format as specifed below:
 stkey (student key unique to each student)---Class---Surname---First Name---Pref Name (Preferred name)---Gender (M or F)---Report (Containing comments)---Word Count
 
-
 It is recommended that the user first first separate the students into cohorts as folders where each folder contains the reports of the same group of students over a period of different years/semesters in the form of .csv files. Doing this will ensure that the deep learning model has a consistent group of students as basis to make a comparison. Training a model based on a consistent dataset will yield a much higher accuracy in predicting the student's future performances as well.
 Important note: The number of grade reports (.csv files) present within the different cohort folders must be consistent as well or the reader method will not have a consistent reference point on which the overall training DataFrame is constructed.
 
