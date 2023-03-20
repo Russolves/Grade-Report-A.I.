@@ -1,5 +1,5 @@
 # Grade-Report-A.I.
-Apollo_learn is a program that can take in large amounts of .csv files separated into folders (present within the same directory) and trains a deep learning neural network model based on the best/worst students evaluated by the user. Apollo_predict program then utilizes the model from the  first program to produce a projected report for each individual student inputted.
+Apollo_learn is a program that can take in large amounts of .csv files separated into folders (present within the same directory) and trains a deep learning neural network model based on the best/worst students evaluated by the user. Apollo_predict program then utilizes the model from the first program to produce a projected report for each individual student inputted.
 
 Note that the .csv files read in have to be in a specific format as specifed below:
 stkey (student key unique to each student)---Class---Surname---First Name---Pref Name (Preferred name)---Gender (M or F)---Report (Containing comments)---Word Count
