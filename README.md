@@ -1,5 +1,5 @@
 # Grade-Report-A.I.
-The AI is split into two main files, Apollo_learn and Apollo_predict
+The AI is split into two main program files, Apollo_learn and Apollo_predict
 
 ApolloLearn is a Python program designed to train a deep learning neural network model on large amounts of CSV files separated into folders within the same directory. The program requires CSV files to be in a specific format, including the student's unique key, class, surname, first name, preferred name, gender, report, and word count. The CSV files should be separated into cohorts, with each folder containing the reports of the same group of students over a period of different years/semesters. By training a model based on a consistent dataset, the program can yield a much higher accuracy in predicting student performance.
 
